@@ -1,0 +1,25 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+# In the standalone deployment the same file is read by _runtime_config()
+# (src/graph/graph.py) and forwarded to the inner domain graph, which
+# republishes the retrieval settings into inner state for the domain nodes.
+
+max_retry: 3
+timeout_s: 30
+
+# Retrieval tuning (RetrieveNode / RerankFilterNode). A caller may narrow the
+# retrieval depth per invocation via input_context.top_k (bounded 1..20); the
+# relevance floor (score_threshold) is operator-only and has no caller override.
+retrieval:
+  top_k: 4
+  score_threshold: 0.25
+  kb_path: "config/kb/returns_complaints_kb.json"
+
+# Answer-synthesis settings (GenerateAnswerNode). The current build assembles
+# answers deterministically from the retrieved passages and reads none of
+# these; they are forwarded to the inner graph so a live-model build can
+# consume them without a config-shape change. Temperature 0.0 for a policy
+# domain where a repeated question must return a repeatable answer.
+llm:
+  temperature: 0.0
+  max_tokens: 1500

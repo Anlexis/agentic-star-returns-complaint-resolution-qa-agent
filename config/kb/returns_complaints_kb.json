@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Standard return eligibility window",
+    "category": "return_eligibility",
+    "source": "Returns & Exchanges Policy, general merchandise section",
+    "tags": ["return", "window", "eligibility", "days", "receipt", "unused"],
+    "content": "General merchandise may be returned within 30 days of the purchase date with proof of purchase. Items must be unworn, unused, and in original condition with tags and packaging intact. The return window is measured from the purchase or delivery date, whichever is later for online orders. Store associates should verify the purchase date against the receipt or digital purchase record before processing a return."
+  },
+  {
+    "id": "kb-002",
+    "title": "Defective or damaged item returns",
+    "category": "defective_items",
+    "source": "Returns & Exchanges Policy, product quality section",
+    "tags": ["defective", "damaged", "quality", "replacement", "refund"],
+    "content": "Defective or damaged items may be returned or exchanged at any time within the manufacturer warranty period, regardless of the standard 30-day return window. The customer may choose a replacement, a repair, or a full refund to the original payment method. Store associates should document the defect (photo or written description) before processing the return so the claim can be tracked for quality reporting."
+  },
+  {
+    "id": "kb-003",
+    "title": "Refund payment method and processing time",
+    "category": "refund_procedure",
+    "source": "Returns & Exchanges Policy, refund processing section",
+    "tags": ["refund", "payment", "processing", "timeline", "method"],
+    "content": "Refunds are issued to the original payment method whenever possible. Card refunds typically take 5 to 7 business days to appear on the customer's statement. Cash and store-credit refunds are issued immediately at the register. If the original payment method is no longer available (e.g. a closed card account), issue the refund as store credit and note the reason in the transaction record."
+  },
+  {
+    "id": "kb-004",
+    "title": "Non-returnable and final-sale items",
+    "category": "final_sale",
+    "source": "Returns & Exchanges Policy, exclusions section",
+    "tags": ["final sale", "clearance", "non-returnable", "exceptions", "personal care"],
+    "content": "Clearance-tagged items, personal-care and hygiene products, and made-to-order or personalized items are final sale and are not eligible for return or exchange, except when the item is defective or was misrepresented at the time of sale. Final-sale status must be clearly disclosed to the customer at checkout; if it was not disclosed, the standard return policy applies instead."
+  },
+  {
+    "id": "kb-005",
+    "title": "Proof-of-purchase and receipt requirements",
+    "category": "receipt_requirements",
+    "source": "Returns & Exchanges Policy, proof-of-purchase section",
+    "tags": ["receipt", "proof", "purchase", "lookup", "store credit"],
+    "content": "A receipt, packing slip, or digital purchase record (loyalty account lookup, order confirmation e-mail) is required to process a full refund to the original payment method. Without proof of purchase, staff may offer store credit at the item's lowest sale price within the last 30 days, at the store manager's discretion, and must record that the return was processed without a receipt."
+  },
+  {
+    "id": "kb-006",
+    "title": "Exchange vs. return policy",
+    "category": "exchange_policy",
+    "source": "Returns & Exchanges Policy, exchanges section",
+    "tags": ["exchange", "size", "color", "swap", "different item"],
+    "content": "Exchanges for a different size, color, or a different item of equal or lesser value are processed as a return of the original item plus a new sale, and follow the same 30-day eligibility window and condition requirements as a standard return. If the replacement item costs more, the customer pays the difference; if it costs less, the difference is refunded to the original payment method."
+  },
+  {
+    "id": "kb-007",
+    "title": "Front-line complaint resolution playbook",
+    "category": "complaint_escalation",
+    "source": "Complaint Resolution Playbook, front-line response section",
+    "tags": ["complaint", "escalation", "resolution", "supervisor", "authority"],
+    "content": "When a customer raises a complaint, front-line staff should first acknowledge the issue and apologize for the inconvenience, then offer the standard remedy available within their authority limit (refund, exchange, or store credit up to the posted threshold). If the customer is not satisfied with the offered remedy, or the claim exceeds the staff member's authority limit (e.g. a high-value item or a safety concern), escalate to the store or duty manager within one business day and log the complaint details in the customer-service system."
+  },
+  {
+    "id": "kb-008",
+    "title": "Escalation to regional or corporate customer service",
+    "category": "complaint_escalation",
+    "source": "Complaint Resolution Playbook, escalation tiers section",
+    "tags": ["escalation", "regional", "corporate", "unresolved", "safety"],
+    "content": "Complaints that remain unresolved at the store-manager level after 3 business days, or that involve a potential safety issue, legal exposure, or repeated complaints from the same customer, must be escalated to the regional customer-service lead. The store manager should document the escalation reason, all prior remedies offered, and the customer's current contact preference before handing off the case."
+  },
+  {
+    "id": "kb-009",
+    "title": "Online order return and shipping process",
+    "category": "shipping_returns",
+    "source": "Returns & Exchanges Policy, online orders section",
+    "tags": ["online", "shipping", "mail", "label", "return", "drop-off"],
+    "content": "Online orders can be returned by mail using the prepaid return label included with the shipment, or dropped off at any store location for immediate processing. Mail returns are inspected and refunded within 5 business days of arrival at the returns processing center; the customer receives an e-mail confirmation once the refund is issued. In-store drop-off of an online order is refunded at the register once the item and receipt or order number are verified."
+  },
+  {
+    "id": "kb-010",
+    "title": "Warranty claims vs. standard returns",
+    "category": "warranty",
+    "source": "Returns & Exchanges Policy, warranty coordination section",
+    "tags": ["warranty", "manufacturer", "claim", "repair", "outside window"],
+    "content": "Items outside the standard 30-day return window but still within the manufacturer's warranty period should be directed to the manufacturer's warranty claim process rather than a store return. Store staff can help the customer locate the warranty registration or start the manufacturer's claim online, but cannot issue a store refund for a warranty-period issue that falls outside the standard return window."
+  }
+]
